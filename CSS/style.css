@@ -1,0 +1,481 @@
+* {
+
+    margin: 0px;
+
+    padding: 0px;
+
+}
+
+
+
+body {
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-attachment: fixed;
+
+}
+
+
+
+#district-drop {
+
+
+
+    margin-left: -12px;
+
+}
+
+
+
+
+
+/* Index Contents about Kerala */
+
+
+
+
+
+
+
+.SImage {
+
+    left: 0;
+
+    top: 0;
+
+    min-height: min-content;
+
+
+
+}
+
+
+
+.SImage img {
+
+
+
+    max-height: 550px;
+
+
+
+}
+
+
+
+
+
+/* .Quick-Locations a{
+
+    text-decoration: none;
+
+    font-size: larger;
+
+    font-weight: bold;
+
+    color: white;
+
+
+
+}
+
+
+
+.Quick-Locations a:hover{
+
+    color: blue;
+
+    transition: .2s ease-in-out;
+
+
+
+} */
+
+
+
+.About-Kerala {
+
+    border: 5px sloid black;
+
+    margin: 10px;
+
+    padding: 25px;
+
+    background-color: rgba(255, 255, 255, .5);
+
+}
+
+
+
+#HeadingMain {
+
+    text-align: center;
+
+}
+
+
+
+#Content-Desc {
+
+    text-align: justify;
+
+    font-size: large;
+
+}
+
+
+
+
+
+
+
+/* /Index content about Kerala */
+
+
+
+
+
+.login {
+
+    margin: 2.5em;
+
+    padding: 150px;
+
+    border: 2px solid rgba(0, 0, 0, 0.4);
+
+    /* background-color: transparent; */
+
+    background-color: rgba(255, 255, 255, 0.6);
+
+    border-radius: 50px;
+
+    box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.9),
+
+        0 10px 50px 0 rgba(0, 0, 0, 0.9);
+
+    margin-bottom: 85px;
+
+}
+
+.signup {
+
+    margin: 2.5em;
+
+    padding: 50px;
+
+    border: 2px solid rgba(0, 0, 0, 0.4);
+
+    /* background-color: transparent; */
+
+    background-color: rgba(255, 255, 255, 0.6);
+
+    border-radius: 50px;
+
+    box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.9),
+
+        0 10px 50px 0 rgba(0, 0, 0, 0.9);
+
+}
+
+
+
+
+
+.formhead h3 {
+
+    /* Forgotten the password */
+
+
+
+    text-align: center;
+
+    margin-bottom: 25px;
+
+}
+
+
+
+#colRM {
+
+    color: white;
+
+}
+
+
+
+#FTP {
+
+    float: right;
+
+    color: red;
+
+    text-align-last: right;
+
+}
+
+
+
+#FTP:hover {
+
+    text-decoration: none;
+
+    transition: .5s ease-in-out;
+
+}
+
+
+
+#Log-In-Button {
+
+    width: 100%;
+
+}
+
+
+
+.acc {
+
+    font-size: large;
+
+    text-align: center;
+
+}
+
+
+
+.acc p {
+
+    color: white;
+
+}
+
+
+
+.acc a {
+
+    text-decoration: none;
+
+}
+
+
+
+/* Explore Kerala */
+
+
+
+.DistrictLogo {
+
+
+
+    position: relative;
+
+    text-align: center;
+
+    color: white;
+
+    float: left;
+
+    margin: 15px;
+
+    padding: auto;
+
+}
+
+
+
+.DistrictLogo a {
+
+    text-decoration: none;
+
+    color: white;
+
+
+
+}
+
+
+
+.DistrictLogo a:hover {
+
+    transition: .5s ease-in-out;
+
+    color: cyan;
+
+}
+
+
+
+.DistrictLogo img {
+
+    border-radius: 12%;
+
+}
+
+
+
+.DistrictLogo img:hover {
+
+    width: 250px;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    text-align: center;
+
+    transition: .2s ease-in-out;
+
+}
+
+
+
+.Text-left {
+
+    position: absolute;
+
+    bottom: 8px;
+
+    left: 16px;
+
+}
+
+  
+
+
+
+.district {
+
+    text-align: center;
+
+    margin: 10px;
+
+    /* border: 2px solid black; */
+
+    background-color: rgba(255, 255, 255, 0.1);
+
+    padding-left: 75px;
+
+    margin-bottom: 50px;
+
+
+
+}
+
+
+
+.district::after {
+
+    content: "";
+
+    clear: both;
+
+    display: table;
+
+}
+
+
+
+/* End of Explore Kerala */
+
+
+
+/* Each District Style */
+
+
+
+.Places-To-Visit a {
+
+    text-decoration: none;
+
+    font-size: larger;
+
+    font-weight: bold;
+
+    color: white;
+
+
+
+}
+
+
+
+.Places-To-Visit a:hover {
+
+    color: blue;
+
+    transition: .2s ease-in-out;
+
+
+
+}
+
+
+
+
+
+
+
+.contents {
+
+    border: 5px sloid black;
+
+    margin: 15px;
+
+    padding: 25px;
+
+    background-color: rgba(255, 255, 255, .5);
+
+}
+
+
+
+#District-Name {
+
+    text-align: center;
+
+}
+
+
+
+#Deistrict-Desc {
+
+    text-align: justify;
+
+    font-size: large;
+
+}
+
+
+
+/* End of Each District Style */
+
+
+
+/* Footer */
+
+
+
+.footer {
+
+    margin-top: 10px;
+
+    margin-bottom: 0;
+
+    /* position: fixed; */
+
+    left: 0;
+
+    bottom: 0;
+
+    width: 100%;
+
+    height: 2.5em;
+
+    background-color: rgba(0, 0, 0, 0.5);
+
+    color: white;
+
+    text-align: center;
+
+}
