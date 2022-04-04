@@ -84,48 +84,83 @@
     </div>
   </nav>
 
+<!--header-->
 
-  <!-- /Navbar  -->
+<!-- form -->
 
-    <form action="#" class="signup">
-        <h2> Registration </h2>
-        <br>
-        <div class="signup-cont">
-            <label> Name</label>
-            <br>
-            <input type="text" placeholder=" Name">
+<div id="LoginForm">
+  <div class="container">
+  <h1 class="form-heading"></h1>
+  <div class="login-form">
+  <div class="main-div">
+      <div class="panel">
+     <h2> Register</h2>
+     <p>Please enter your Name</p>
+     </div>
+      <form id="Login" action="./login.html" onsubmit="return validate()">
+        <div class="form-group">
+  
+          <input type="Username" class="form-control" id="name" placeholder="Username">
+          <label for="error" id="error0"></label>
+
+      </div>
+
+          <div class="form-group">
+  
+  
+              <input for="email" class="form-control" id="email" placeholder="Email Address">
+              
+              <label for="error" id="error1"></label>
+          </div>
+
+          <div class="form-group">
+  
+  
+            <input type="password" class="form-control" id="pwd" placeholder="Password">
+            <span id="strength" style="
+            margin-top: 5%; 
+            display: none; 
+            text-align :center;
+        "></span>  
+            
+            <label for="error" id="error2"></label>
         </div>
-        <div class="signup-cont">
-            <label>Phone Number</label>
-            <br>
-            <input type="number" placeholder="Phone Number">
-            <br>
-        </div>
-        <div class="signup-cont">
-            <label>Email</label>
-            <br>
-            <input type="text" placeholder="Email">
-            <br>
-        </div>
-        <div class="signup-cont">
-            <label>Password</label>
-            <br>
-            <input type="password" placeholder="Password">
-            <br>
-        </div>
-        <div class="signup-cont">
-            <label>Confirm Password</label>
-            <br>
-            <input type="password" placeholder="Password">
-            <br>
-        </div>
-        <div id="signup-button">
-            <br>
-            <button>Sign Up</button>
-            <br>
-        </div>
+  
+          <div class="form-group">
+  
+              <input type="password" class="form-control" id="pwd2" placeholder="Confirm Password">
+              
+              <label for="error" id="error3"></label>
+          </div>
+
+
+        <div class="form-group">
+  
+          <input type="Phone number" class="form-control" id="phone" placeholder="Phone number">
+          
+          <label for="error" id="error4"></label>
+      </div>
+
+
+        
+          <button type="submit" class="btn btn-primary">Register</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember" style= "margin-top:20px";> Remember me
+          </label>
        
+  
+      </form>
+    </div>
+  </div>
+     
 
-    </form>
+<!--footer-->
+
+<footer>
+
+  <h6 style="text-align: center;">All rights reserved © Kerala Tourism 2021</h6>
+</footer>
+<script src="sign.js"></script>   
+
 </body>
 </html>
